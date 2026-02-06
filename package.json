@@ -1,24 +1,11 @@
 {
-  "name": "le-react-joyride",
-  "version": "3.0.0-7-le",
-  "description": "Create guided tours for your apps",
-  "author": "Gil Barbara <gilbarbara@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gilbarbara/react-joyride.git"
+  "name": "@lexp-cloud/react-joyride",
+  "version": "3.0.0-7-le-1.0.1",
+  "description": "Fork of gilbarbara/react-joyride",
+  "repository": "https://github.com/lexp-cloud/react-joyride.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
-  "bugs": {
-    "url": "https://github.com/gilbarbara/react-joyride/issues"
-  },
-  "homepage": "https://react-joyride.com/",
-  "keywords": [
-    "react",
-    "react-component",
-    "tooltips",
-    "joyride",
-    "walkthroughs",
-    "tour"
-  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "exports": {
@@ -26,8 +13,7 @@
     "require": "./dist/index.js"
   },
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "types": "dist/index.d.ts",
   "sideEffects": false,
